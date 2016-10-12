@@ -1,10 +1,9 @@
 require 'spec_helper'
 
 describe 'Lynis::install' do
-
   it 'includes the `apy::default` recipe' do
-     chef_runner = ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '16.04').converge(described_recipe)
-     expect(chef_runner).to include_recipe('apt::default')
+    chef_runner = ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '16.04').converge(described_recipe)
+    expect(chef_runner).to include_recipe('apt::default')
   end
 
   package_checks = {

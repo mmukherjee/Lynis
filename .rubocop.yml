@@ -1,0 +1,11 @@
+AlignParameters:
+  Enabled: true
+
+Encoding:
+  Enabled: true
+
+LineLength:
+  Max: 200
+
+StringLiterals:
+  Enabled: true

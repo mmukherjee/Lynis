@@ -8,7 +8,8 @@ This file is used to list changes made in each version of the Lynis cookbook.
 ## 0.2.0
 - [Mrinal Mukherjee] - Updated the licence to GPL since Lynis is released as GPL
 
-- - -
-Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
+## 1.0.0
+- [Mrinal Mukherjee] - Refactored the code base and tests. Updated the licence
 
-The [Github Flavored Markdown page](http://github.github.com/github-flavored-markdown/) describes the differences between markdown on github and standard markdown.
+## 1.0.1
+- [Mrinal Mukherjee] - Replaced bitbucket with github, updated changelog. Rubocop fixes. Bumped up the version
