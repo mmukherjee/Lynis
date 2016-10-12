@@ -11,5 +11,5 @@ package 'lynis'
 
 # This is used to execite the audit report
 execute 'generate-report' do
-  command 'lynis -Q audit system'
+  command node['lynis']['audit']['command']
 end
